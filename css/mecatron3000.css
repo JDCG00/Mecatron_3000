@@ -1,0 +1,42 @@
+/*
+    Fichero 
+*/
+body{
+    color: white;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-image: url("../img/fondo_abstracto.jpg");
+}
+
+
+/*Div principal*/
+#divPrincipal{
+    background-color: rgba(0, 0, 0, 0.350);
+    position: relative;
+    width: 90%;
+    height: 800px;
+    margin: auto;
+    border: 1px solid blue;
+}
+/*Reglas para las palabras que vuelan*/
+.palabra{
+    background-color: rgba(38, 0, 255, 0.30);
+    position: absolute;
+    border: 1px solid red;
+}
+.palabra:nth-child(1){
+    top: 20px;
+    left: 100px;
+}
+.palabra:nth-child(2){
+    top: 100px;
+    left: 350px;
+}
+.palabra:nth-child(3){
+    top: 180px;
+    left: 200px;
+}
+.palabra span{
+    color: blue;
+}
