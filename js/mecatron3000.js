@@ -53,7 +53,7 @@ class Juego{
                     /*this.modelo.sumarPunto()*/
                 }
                 else{
-                    
+                     
                 }
 
             }
