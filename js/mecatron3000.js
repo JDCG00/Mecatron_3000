@@ -53,7 +53,7 @@ class Juego{
                     /*this.modelo.sumarPunto()*/
                 }
                 else{
-                     
+                       
                 }
 
             }
@@ -100,6 +100,8 @@ class Modelo{
         this.palabras = ['En', 'un', 'lugar', 'de', 'la', 'Mancha']
     }
     /**
+        Devuelve una nueva palabra.
+        Devuelve aleatoriamente un elemento del array de palabras.
         @return (String) Palabra generada     
     **/
    crearPalabra(){
