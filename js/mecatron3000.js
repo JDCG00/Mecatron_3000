@@ -1,6 +1,6 @@
 /** 
     mecatron3000.js
-    Controladro principal del juego Mecatron3000
+    @file Controlador principal del juego Mecatron3000
     @author Juan Diego Carretero Granado <jcarreterogranado.guadalupe@alumnado.fundacionloyola.net>
     @License GPL v3 2021
 */
@@ -100,6 +100,8 @@ class Modelo{
         this.palabras = ['En', 'un', 'lugar', 'de', 'la', 'Mancha']
     }
     /**
+        Devuelve una nueva palabra.
+        Devuelve aleatoriamente un elemento del array de palabras.
         @return (String) Palabra generada     
     **/
    crearPalabra(){
